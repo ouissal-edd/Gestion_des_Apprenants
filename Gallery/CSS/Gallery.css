@@ -1,0 +1,541 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body .ftrContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 200px;
+  background: #232144;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  margin-top: -7px;
+  color: whitesmoke;
+}
+
+body .ftrContainer .page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .ftrContainer .page .elemContainer {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+}
+
+body .ftrContainer .page .elemContainer .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+body .ftrContainer .page .elemContainer .textLogos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 26px;
+}
+
+body .ftrContainer .connect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .ftrContainer .connect .elemContainer {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+}
+
+body .ftrContainer .connect .elemContainer .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+body .ftrContainer .connect .elemContainer .textLogos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 26px;
+}
+
+body .ftrContainer .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .ftrContainer .contact .elemContainer {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+}
+
+body .ftrContainer .contact .elemContainer .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+body .ftrContainer .contact .elemContainer .textLogos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 53px;
+}
+
+@media screen and (max-width: 1200px) {
+  body .ftrContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    gap: 80px;
+  }
+  body .ftrContainer .page {
+    display: none;
+  }
+}
+
+body .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #232144;
+  padding: 5px;
+  font-family: poppins;
+  color: whitesmoke;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+body .navigation .logo {
+  font-size: 35px;
+  font-weight: 400;
+  font-family: poppins;
+}
+
+body .navigation .menuContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 20px;
+  gap: 70px;
+}
+
+body .navigation .menuContent a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 400;
+}
+
+body .navigation .menuContent a:hover {
+  color: #239897;
+}
+
+@media screen and (max-width: 1200px) {
+  body .navigation .menuContent {
+    display: none;
+  }
+  body .navigation .burgerMenu {
+    display: block;
+  }
+}
+
+body .navigation .xIcon {
+  padding: 0;
+  margin: 0;
+  display: none;
+  cursor: pointer;
+  font-size: 40px;
+  color: #239897;
+}
+
+body .navigation .burgerMenu {
+  line-height: 10px;
+  display: none;
+  cursor: pointer;
+}
+
+body .navigation .burgerMenu .min {
+  padding: 0;
+  margin: 0;
+  font-size: 100px;
+  font-weight: 200;
+  color: #239897;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+  body .navigation {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+body .navigationPopup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  margin: auto;
+  gap: 30px;
+  padding: 20px;
+  background-color: #232144;
+}
+
+body .navigationPopup h4 a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 400;
+}
+
+body .navigationPopup hr {
+  color: #239897;
+  width: 60%;
+  margin: auto;
+  border: #239897 solid 1px;
+}
+
+body {
+  font-family: poppins;
+}
+
+body .galleryHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 220px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 220px;
+  background-color: #232144;
+  padding-top: 100px;
+}
+
+body .galleryHeader .galleryHeaderText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+  width: 50%;
+}
+
+body .galleryHeader .galleryHeaderText .galleryHeaderH1 {
+  font-size: 40px;
+  color: white;
+}
+
+body .galleryHeader .galleryHeaderText .galleryHeaderH1 .greenText {
+  color: #239897;
+}
+
+body .galleryHeader .galleryHeaderText .galleryHeaderPar {
+  color: white;
+  font-size: 20px;
+}
+
+body .galleryHeader .galleryHeaderText .galleryHeaderBtn {
+  width: 50%;
+  outline: none;
+  margin-top: 2%;
+  padding: 14px 62px;
+  font-size: 21px;
+  font-weight: normal;
+  cursor: pointer;
+  color: #ddd;
+  border: none;
+  letter-spacing: 1px;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #00BBF6, #00C5E3, #00CBD7, #00D4C8, #00DBBB);
+  -webkit-transition: letter-spacing 1s;
+  transition: letter-spacing 1s;
+}
+
+body .galleryHeader .galleryHeaderText .galleryHeaderBtn:hover {
+  letter-spacing: 6px;
+}
+
+body .galleryHeader .galleryHeaderImg {
+  width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+  body .galleryHeader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 100pxpx;
+    gap: 100px;
+  }
+  body .galleryHeader .galleryHeaderText {
+    width: 95%;
+    gap: 20px;
+  }
+  body .galleryHeader .galleryHeaderText .galleryHeaderH1 {
+    font-size: 45px;
+  }
+  body .galleryHeader .galleryHeaderText .galleryHeaderPar {
+    font-size: 20px;
+  }
+  body .galleryHeader .galleryHeaderText .galleryHeaderBtn {
+    width: 60%;
+    font-size: 20px;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  body .galleryHeader .galleryHeaderImg {
+    width: 95%;
+  }
+}
+
+body .gallerySectionOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  padding-top: 100px;
+  gap: 80px;
+}
+
+body .gallerySectionOne .sectionOneH1 {
+  font-size: 35px;
+}
+
+body .gallerySectionOne .events {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+body .gallerySectionOne .events .event {
+  width: 650px;
+  position: relative;
+}
+
+body .gallerySectionOne .events .eventDiscription {
+  width: 350px;
+  text-align: left;
+  background-color: #232144;
+  color: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px;
+  position: absolute;
+  margin-left: 550px;
+}
+
+body .gallerySectionOne .events .eventDiscription .descriptionHeader {
+  font-size: 30px;
+}
+
+body .gallerySectionOne .events .eventDiscription .descriptionPar {
+  font-size: 20px;
+}
+
+body .gallerySectionOne .reversed {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+body .gallerySectionOne .reversed .eventDiscriptionReversed {
+  width: 350px;
+  text-align: left;
+  background-color: #232144;
+  color: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px;
+  position: absolute;
+  margin-right: 550px;
+}
+
+body .gallerySectionOne .reversed .eventDiscriptionReversed .descriptionHeader {
+  font-size: 30px;
+}
+
+body .gallerySectionOne .reversed .eventDiscriptionReversed .descriptionPar {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  body .gallerySectionOne .events {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .gallerySectionOne .events .event {
+    width: 550px;
+  }
+  body .gallerySectionOne .events .eventDiscription {
+    margin: auto;
+    margin-top: 500px;
+  }
+  body .gallerySectionOne .reversed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .gallerySectionOne .reversed .eventDiscriptionReversed {
+    margin: auto;
+    margin-top: 500px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body .gallerySectionOne {
+    width: 95%;
+  }
+}
+/*# sourceMappingURL=Gallery.css.map */

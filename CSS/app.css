@@ -1,0 +1,655 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body .ftrContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 200px;
+  background: #232144;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  margin-top: -7px;
+  color: whitesmoke;
+}
+
+body .ftrContainer .page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .ftrContainer .page .elemContainer {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+}
+
+body .ftrContainer .page .elemContainer .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+body .ftrContainer .page .elemContainer .textLogos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 26px;
+}
+
+body .ftrContainer .connect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .ftrContainer .connect .elemContainer {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+}
+
+body .ftrContainer .connect .elemContainer .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+body .ftrContainer .connect .elemContainer .textLogos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 26px;
+}
+
+body .ftrContainer .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .ftrContainer .contact .elemContainer {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+}
+
+body .ftrContainer .contact .elemContainer .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+body .ftrContainer .contact .elemContainer .textLogos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 53px;
+}
+
+@media screen and (max-width: 1200px) {
+  body .ftrContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    gap: 80px;
+  }
+  body .ftrContainer .page {
+    display: none;
+  }
+}
+
+body .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #232144;
+  padding: 5px;
+  font-family: poppins;
+  color: whitesmoke;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+body .navigation .logo {
+  font-size: 35px;
+  font-weight: 400;
+  font-family: poppins;
+}
+
+body .navigation .menuContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 20px;
+  gap: 70px;
+}
+
+body .navigation .menuContent a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 400;
+}
+
+body .navigation .menuContent a:hover {
+  color: #239897;
+}
+
+@media screen and (max-width: 1200px) {
+  body .navigation .menuContent {
+    display: none;
+  }
+  body .navigation .burgerMenu {
+    display: block;
+  }
+}
+
+body .navigation .xIcon {
+  padding: 0;
+  margin: 0;
+  display: none;
+  cursor: pointer;
+  font-size: 40px;
+  color: #239897;
+}
+
+body .navigation .burgerMenu {
+  line-height: 10px;
+  display: none;
+  cursor: pointer;
+}
+
+body .navigation .burgerMenu .min {
+  padding: 0;
+  margin: 0;
+  font-size: 100px;
+  font-weight: 200;
+  color: #239897;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+  body .navigation {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+body .navigationPopup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  margin: auto;
+  gap: 30px;
+  padding: 20px;
+  background-color: #232144;
+}
+
+body .navigationPopup h4 a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 400;
+}
+
+body .navigationPopup hr {
+  color: #239897;
+  width: 60%;
+  margin: auto;
+  border: #239897 solid 1px;
+}
+
+body {
+  font-family: poppins;
+}
+
+body .mainHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #232144;
+  margin-top: -25px;
+  padding-top: 120px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+body .mainHeader .headerText {
+  color: whitesmoke;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+body .mainHeader .headerText .headerOne {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+body .mainHeader .headerText .headerOne .greenText {
+  color: #239897;
+}
+
+body .mainHeader .headerText .parOne {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+body .mainHeader .headerText .BtnContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+body .mainHeader .headerText .BtnContainer .Btn {
+  width: 50%;
+  margin-top: 2%;
+  padding: 14px 62px;
+  font-size: 21px;
+  border-radius: 30px;
+  -webkit-transition: letter-spacing 1s;
+  transition: letter-spacing 1s;
+  font-size: 21px;
+  font-weight: normal;
+  cursor: pointer;
+  color: #ddd;
+  border: none;
+  letter-spacing: 1px;
+  background: linear-gradient(45deg, #00BBF6, #00C5E3, #00CBD7, #00D4C8, #00DBBB);
+  outline: none;
+}
+
+body .mainHeader .headerText .BtnContainer .Btn:hover {
+  letter-spacing: 6px;
+}
+
+body .mainHeader .headerImg {
+  width: auto;
+}
+
+@media screen and (max-width: 900px) {
+  body .mainHeader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+    padding-top: 60px;
+    margin: 0;
+    gap: 20px;
+  }
+  body .mainHeader .headerText {
+    width: 95%;
+  }
+  body .mainHeader .headerText .headerOne {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  body .mainHeader .headerText .BtnContainer #studentsBtn {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 70%;
+    outline: none;
+  }
+  body .mainHeader .headerText .BtnContainer #adminsBtn {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 70%;
+    outline: none;
+  }
+  body .mainHeader .headerImg {
+    width: 90%;
+  }
+}
+
+body .SectionTwo {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  width: 60%;
+}
+
+body .SectionTwo .textContainer {
+  border: solid black 2px;
+  border-radius: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  height: 450px;
+  width: 1000px;
+}
+
+body .SectionTwo .textContainer .sectionTwoText {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+body .SectionTwo .textContainer .adminsPickBtns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 180px;
+  gap: 30px;
+}
+
+body .SectionTwo .textContainer .adminsPickBtns .Btn {
+  width: 30%;
+  margin-top: 2%;
+  padding: 14px 62px;
+  font-size: 18px;
+  border-radius: 30px;
+  -webkit-transition: color 2s;
+  transition: color 2s;
+  font-size: 21px;
+  font-weight: normal;
+  cursor: pointer;
+  color: #ddd;
+  border: none;
+  letter-spacing: 1px;
+  background: linear-gradient(45deg, #00BBF6, #00C5E3, #00CBD7, #00D4C8, #00DBBB);
+  outline: none;
+}
+
+body .SectionTwo .textContainer .adminsPickBtns .Btn:hover {
+  background: rgba(245, 245, 245, 0);
+  border: solid #232144  2px;
+  color: #232144;
+}
+
+body .SectionTwo .textContainer .studentsPickBtns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 180px;
+  gap: 30px;
+}
+
+body .SectionTwo .textContainer .studentsPickBtns .Btn {
+  width: 40%;
+  margin-top: 2%;
+  padding: 14px 62px;
+  font-size: 18px;
+  border-radius: 30px;
+  -webkit-transition: color 2s;
+  transition: color 2s;
+  font-size: 21px;
+  font-weight: normal;
+  cursor: pointer;
+  color: #ddd;
+  border: none;
+  letter-spacing: 1px;
+  background: linear-gradient(45deg, #00BBF6, #00C5E3, #00CBD7, #00D4C8, #00DBBB);
+  outline: none;
+}
+
+body .SectionTwo .textContainer .studentsPickBtns .Btn:hover {
+  background: rgba(245, 245, 245, 0);
+  border: solid #232144 2px;
+  color: #232144;
+}
+
+body .SectionTwo .textContainer .managePickBtns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 180px;
+  gap: 30px;
+}
+
+body .SectionTwo .textContainer .managePickBtns .Btn {
+  width: 40%;
+  margin-top: 2%;
+  padding: 14px 62px;
+  font-size: 18px;
+  font-weight: normal;
+  font-size: 21px;
+  font-weight: normal;
+  cursor: pointer;
+  color: #ddd;
+  border: none;
+  letter-spacing: 1px;
+  background: linear-gradient(45deg, #00BBF6, #00C5E3, #00CBD7, #00D4C8, #00DBBB);
+  outline: none;
+  border-radius: 30px;
+  -webkit-transition: color 2s;
+  transition: color 2s;
+}
+
+body .SectionTwo .textContainer .managePickBtns .Btn:hover {
+  background: rgba(245, 245, 245, 0);
+  border: solid #232144 2px;
+  color: #232144;
+}
+
+@media screen and (max-width: 900px) {
+  body .SectionTwo {
+    width: 95%;
+  }
+  body .SectionTwo .textContainer {
+    width: 95%;
+    height: auto;
+  }
+  body .SectionTwo #adminsPick {
+    width: 95%;
+    height: auto;
+  }
+  body .SectionTwo #adminsPick .adminsPickBtns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+  }
+  body .SectionTwo #adminsPick .adminsPickBtns .Btn {
+    width: 90%;
+  }
+  body .SectionTwo #studentsPick {
+    width: 95%;
+    height: auto;
+  }
+  body .SectionTwo #studentsPick .studentsPickBtns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+  }
+  body .SectionTwo #studentsPick .studentsPickBtns .Btn {
+    width: 90%;
+  }
+  body .SectionTwo #managePick {
+    width: 95%;
+    height: auto;
+  }
+  body .SectionTwo #managePick .managePickBtns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+  }
+  body .SectionTwo #managePick .managePickBtns .Btn {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=app.css.map */

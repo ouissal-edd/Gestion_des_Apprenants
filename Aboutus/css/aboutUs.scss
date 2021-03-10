@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ overflow-x: hidden;
+}
+
+@mixin buttonStyle {font-size: 21px;
+    font-weight: normal;
+    cursor: pointer;
+    color: #ddd;
+    border: none;
+    letter-spacing: 1px;
+    background: linear-gradient(45deg,#00BBF6,#00C5E3,#00CBD7,#00D4C8,#00DBBB);
+    outline: none;
+}
+
+@mixin flexStyle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin columStyle {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@mixin rowStyle {
+    display: flex;
+    flex-direction: row;
+}
+//  color 
+$greenColor:#239897;
+$blueColor:#232144;
+$whiteColor:whitesmoke;
+
+
+@import "./footer";
+@import "./header";
+
+body{
+
+  
+ font-family: poppins;
+//  .navigation{
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   background-color: #232144;
+//   padding: 5px;
+//   font-family: poppins;
+//   color: whitesmoke;
+//   padding-left: 100px;
+//   padding-right: 100px;
+//   .logo{
+//    font-size: 35px;
+//    font-weight: 400;
+//    font-family: poppins;
+//   }
+//   .menuContent{
+//    display: flex;
+//    flex-direction: row;
+//    font-size: 20px;
+//    gap: 70px;
+//    a{
+//     text-decoration: none;
+//     color: whitesmoke;
+//     font-weight:400;
+//     &:hover{
+//      color: #239897;
+//     }
+//    }
+//   }
+//   @media screen and (max-width:900px){
+//    .menuContent{
+//     display: none;
+//    }
+//    .burgerMenu{
+//     display: block;
+//    }
+
+//   }
+//   .xIcon{
+//    padding: 0;
+//    margin: 0;
+//    display: none;
+//    cursor: pointer;
+//    font-size: 40px;
+//    color: #239897;
+//   }
+//   .burgerMenu{
+//    line-height: 10px;
+//    display: none;
+//    cursor: pointer;
+//    .min{
+//     padding: 0;
+//     margin: 0;
+//     font-size: 100px;
+//     font-weight: 200;
+//     color: #239897;
+//     overflow: hidden;
+//    }
+//   }
+//  }
+
+//  @media screen and (max-width:900px){
+//   .navigation{
+//    padding-left: 20px;
+//    padding-right: 20px;
+//   }
+//  }
+
+//  .navigationPopup{
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-around;
+//   text-align: center;
+//   margin: auto;
+//   gap: 30px ;
+//   padding: 20px;
+//   background-color: #232144;
+//   h4{
+//    a{
+//     text-decoration: none;
+//     color: whitesmoke;
+//     font-weight:400;
+//    }
+//   }
+//   hr{
+//    color: #239897;
+//    width: 60%;
+//    margin: auto;
+//    border: #239897 solid 1px;
+//   }
+//  }
+
+ .sectionOne{
+  @include flexStyle();
+  gap: 20px;
+  justify-content: center;
+  padding-top: 100px;
+  .aboutHeader{
+   font-size: 30px;
+   color: #232144;
+   padding-bottom: 60px;
+   font-family: poppins;
+  } 
+  .programsContainer{  
+    @include rowStyle();
+    justify-content: center;
+    gap: 20px;
+    width: 85%;
+    .prog{
+       width: 30%;
+       background-color: #00BBBB;
+       color: $whiteColor;
+       padding-top: 10px;
+       padding-bottom: 50px;
+       border-radius: 35px;
+     .check{
+         margin-left: 10px;
+         width: 25px;
+      }
+     .progHeader{
+         margin-left: 20px;
+         margin-top: 40px;
+         font-weight: normal;
+         font-size: 30px;
+      }
+     .progPar{
+         margin-left: 20px;
+         margin-right: 20px;
+     }
+    } 
+   }
+
+   @media screen and (max-width:900px){
+    .programsContainer{
+     @include flexStyle();
+     width: 900px;
+    }
+   }
+
+
+
+   .line{
+    width: 55%;
+    border: solid gray 1px;
+    margin-top: 70px;
+    margin-bottom: 200px;
+   }
+
+ }
+
+ .sectionTwo{
+  @include flexStyle();
+  justify-content: center;
+  gap: 200px;
+ 
+  padding-bottom: 150px;
+  .contentContainer{
+     @include rowStyle();
+      justify-content: center;
+      gap: 20px;
+      width: 80%;
+      .textContent{
+         @include columStyle();
+          width: 50%;
+          gap: 40px;
+          padding-top: 50px;
+          .contentHeader{
+              font-size: 42px;
+              color: #00BBBB ;
+              font-weight: normal;
+           }
+          .contentPar{
+              font-size: 30px;
+              color: #232144;
+
+          }
+       }
+      .contentImg{
+          width: 50%;
+      }
+   }
+
+   @media screen and (max-width:900px){
+    .contentContainer{
+    @include flexStyle();
+     text-align: center;
+     .textContent{
+      width: 90%;
+     }
+     .contentImg{
+      width: 90%;
+     }
+    }
+   }
+
+
+ }
+
+//  .ftrContainer{ 
+//  display: flex;
+//   justify-content: center ;
+//   gap: 200px;
+//   background-color: #232144;
+//   padding-top: 100px;
+//   padding-bottom: 40px;
+//   margin-top: -7px;
+//   color: whitesmoke;
+//   .page{
+//       display: flex;
+//       flex-direction: column;
+//       .elemContainer{
+//           padding-top: 30px;
+//           display: flex;
+//           flex-direction: row;
+//           gap: 20px;
+//           .logos{
+//               display: flex;
+//               flex-direction: column;
+//               gap: 20px;
+//            }
+//           .textLogos{
+//             display: flex;
+//             flex-direction: column;
+//             gap: 26px;
+//            }
+
+//        }
+//    }
+//   .connect{
+//       display: flex;
+//       flex-direction: column;
+//       .elemContainer{
+//           padding-top: 30px;
+//           display: flex;
+//           flex-direction: row;
+//           gap: 20px;
+//           .logos{
+//               display: flex;
+//               flex-direction: column;
+//               gap: 20px;
+//            }
+//           .textLogos{
+//             display: flex;
+//             flex-direction: column;
+//             gap: 26px;
+//            }
+
+//        }
+//    }
+//   .contact{
+//       display: flex;
+//       flex-direction: column;
+//       .elemContainer{
+//           padding-top: 30px;
+//           display: flex;
+//           flex-direction: row;
+//           gap: 20px;
+//           .logos{
+//               display: flex;
+//               flex-direction: column;
+//               gap: 20px;
+//            }
+//           .textLogos{
+//             display: flex;
+//             flex-direction: column;
+//             gap: 53px;
+//           }
+
+//       }
+//    }
+//  }
+//  @media screen and (max-width:900px){
+//   .ftrContainer{
+//    display: flex;
+//    flex-direction: column;
+//    align-items: center;
+//    text-align: center;
+//    gap: 80px;
+//    .page{
+//     display: none;
+//    }
+//   }
+//  }
+}
