@@ -1,3 +1,7 @@
+const burgerMenu=document.getElementById('burgerMenu');
+const xIcon=document.getElementById('xIcon');
+const navigationPopup=document.getElementById('navigationPopup');
+
 const studentsBtn = document.getElementById('studentsBtn');
 const adminsBtn = document.getElementById('adminsBtn');
 
@@ -6,29 +10,6 @@ const adminsPick = document.getElementById('adminsPick');
 const studentsPick = document.getElementById('studentsPick');
 const managePick = document.getElementById('managePick');
 const manageBtn = document.getElementById('manageBtn');
-
-studentsBtn.addEventListener('click', function(){
- studentsPick.style.display ="flex";
- defaultText.style.display ="none";
- managePick.style.display ="none";
- adminsPick.style.display ="none";
-})
-adminsBtn.addEventListener('click', function(){
- studentsPick.style.display ="none";
- defaultText.style.display ="none";
- managePick.style.display ="none";
- adminsPick.style.display ="flex";
-})
-manageBtn.addEventListener('click', function(){
- studentsPick.style.display ="none";
- defaultText.style.display ="none";
- managePick.style.display ="flex";
- adminsPick.style.display ="none";
-})
-
-const burgerMenu=document.getElementById('burgerMenu');
-const xIcon=document.getElementById('xIcon');
-const navigationPopup=document.getElementById('navigationPopup');
 
 function myFunction(x) {
   if (x.matches) {
@@ -44,6 +25,8 @@ x.addListener(myFunction)
 
 
 
+
+
 burgerMenu.addEventListener('click',function(){
  xIcon.style.display ="flex";
  burgerMenu.style.display ="none";
@@ -56,3 +39,26 @@ xIcon.addEventListener('click',function(){
  xIcon.style.display ="none";
  burgerMenu.style.display ="block";
 })
+
+studentsBtn.addEventListener('click', function(){
+  studentsPick.style.display ="flex";
+  defaultText.style.display ="none";
+  managePick.style.display ="none";
+  adminsPick.style.display ="none";
+ 
+ })
+ adminsBtn.addEventListener('click', function(){
+  studentsPick.style.display ="none";
+  defaultText.style.display ="none";
+  managePick.style.display ="none";
+  adminsPick.style.display ="flex";
+ 
+ })
+ manageBtn.addEventListener('click', function(){
+  studentsPick.style.display ="none";
+  defaultText.style.display ="none";
+  managePick.style.display ="flex";
+  adminsPick.style.display ="none";
+ 
+ })
+ 

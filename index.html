@@ -11,9 +11,9 @@
     <div class="navigation">
         <h1 class="logo">SHAND</h1>
         <div class="menuContent">
-         <h4><a href="#home">Home</a></h4>
-         <h4><a href="Gallery/gallery.html">Gallery</a></h4>
-         <h4><a href="Aboutus/aboutus.html">About Us</a></h4>
+         <h4><a href="index.html">Home</a></h4>
+         <h4><a href="gallery.html">Gallery</a></h4>
+         <h4><a href="aboutus.html">About Us</a></h4>
         </div>
         <h1 id="xIcon" class="xIcon">&times;</h1>
         <div id="burgerMenu" class="burgerMenu" style="display: none;">
@@ -26,9 +26,9 @@
        <div id="navigationPopup" class="navigationPopup" style="display: none;">
         <h4><a class="content" href="index.html">Home</a></h4>
         <hr>
-        <h4><a class="content" href="Gallery/gallery.html">Gallery</a></h4>
+        <h4><a class="content" href="gallery.html">Gallery</a></h4>
         <hr>
-        <h4><a class="content" href="Aboutus/aboutus.html">About Us</a></h4>
+        <h4><a class="content" href="aboutus.html">About Us</a></h4>
         <hr>
       </div>
 
@@ -38,17 +38,17 @@
       <h3 class="parOne">A learning comunity dedicated to building respectful and responsible citizens and
        empowering all learners.</h3>
       <div class="BtnContainer">
-       <button id="studentsBtn" class="Btn">I'M A STUDENT</button>
-       <button id="adminsBtn" class="Btn">I'M AN ADMIN</button>
+       <button id="studentsBtn" class="Btn"><a style="text-decoration: none; color: #ddd;" href="#SectionTwo">I'M A STUDENT</a></button>
+       <button id="adminsBtn" class="Btn"><a style="text-decoration: none; color: #ddd;" href="#SectionTwo">I'M AN ADMIN</a></button>
       </div>
        
      </div>
      <img src="images/heading.png" alt="" class="headerImg">
     </section>  
-    <img src="images/navBack.png" alt="">
+    <img src="images/navBack.png"  style="width: 100%; margin-bottom: 9px;" alt="">
 
 
-    <section class="SectionTwo">
+    <section id="SectionTwo" class="SectionTwo">
      <div id="defaultText" class="textContainer" >
       <p class="sectionTwoText">
        We are a leading artistic educational provider, offering
@@ -62,27 +62,25 @@
      <div id="adminsPick" class="textContainer"style="display: none;" >
       <h2 class="containerH2">A FAMILY OF LEARNING</h2>
       <div class="adminsPickBtns">
-       <button id="listBtn" class="Btn">Show students lists</button>
-       <button id="searchBtn" class="Btn">Serach for student</button>
+       <button id="listBtn" class="Btn"> <a href="php/liste.php" style="text-decoration: none; color: #ddd;"> Show students lists</a></button>
        <button id="manageBtn" class="Btn">Manage Students</button>
       </div>
      </div>
      <div id="studentsPick" class="textContainer"style="display: none;">
       <h2 class="containerH2">A FAMILY OF LEARNING</h2>
       <div class="studentsPickBtns">
-       <button id="listBtn" class="Btn">Show students lists</button>
-       <button id="searchBtn" class="Btn">Serach for student</button>
+       <button id="listBtn" class="Btn"><a href="php/listeEtudiants.php" style="text-decoration: none; color: #ddd;">Show students lists</a></button>
       </div>
      </div>
      <div id="managePick" class="textContainer" style="display: none;">
       <h2 class="containerH2">MANAGE STUDENTS</h2>
       <div class="managePickBtns">
-       <button id="addBtn" class="Btn"><a href="Formulaire/Formulaire.html" style="text-decoration: none; color: whitesmoke";>Add student</a></button>
-       <button id="updatehBtn" class="Btn">Update student</button>
-       <button id="removeBtn" class="Btn">Remove student</button>
+       <button id="addBtn" class="Btn"><a href="php/Formulaire.php" style="text-decoration: none; color: #ddd";>Add student</a></button>
+       <button id="updatehBtn" class="Btn"> <a href="php/liste.php"style="text-decoration: none; color: #ddd;" > Update student</a> </button>
+       <button id="removeBtn" class="Btn"><a href="php/liste.php" style="text-decoration: none; color: #ddd;"> Remove student</a></button>
       </div>
      </div>
-    </section>
+    </section>    
 
     <img src="images/footerback.png" alt="">
     <footer class="ftrContainer">
@@ -134,12 +132,6 @@
    
       
      </footer>
-
-
-
-
-
-
 
 <script src="JS/app.js"></script>
 </body>

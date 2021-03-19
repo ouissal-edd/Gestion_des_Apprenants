@@ -1,0 +1,7 @@
+@import "./font";
+body{
+ font-family: poppins;
+ @import "./header";
+ @import "./aboutUs";
+ @import "./footer";
+}

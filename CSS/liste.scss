@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ overflow-x: hidden;
+ box-sizing: border-box;
+ font-family: 'Poppins';
+ 
+}
+$greenColor:#239897;
+$blueColor:#232144;
+$whiteColor:whitesmoke;
+@import "./footer";
+@import "./header";
+
+body{
+    .titletable{
+        font-size: 35px ;
+        color: $blueColor;
+        text-align: center;
+        margin-bottom: 3%;
+       
+    }
+    .photonav {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .TableLis, th, td {
+        border: 1px solid $blueColor;
+      }
+      .TableLis{
+        border-collapse: collapse;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 3%;
+        th{
+            padding: 8px;
+            text-align: center;
+        }
+        td{
+            padding: 8px;
+            text-align: center;
+        }
+
+      }
+
+      @media screen and (max-width:1100px){
+        .TableLis  {
+            .supp{
+                display: none;
+            }
+            
+            th{
+                padding: 1px;
+                text-align: center;
+            }
+          }
+
+        }
+        
+     
+
+
+.content{
+    width: 20%;
+    margin: auto;
+    margin-top: 8%;
+
+    form{
+        input{
+            width: 100%;
+    padding: 15px 30px;
+    margin: 12px 0px;
+    border-radius: 30px;
+    outline: none;
+   
+        }
+        .Btn{
+            font-size: 21px;
+        font-weight: normal;
+        cursor: pointer;
+        color: #ddd;
+        border: none;
+        letter-spacing: 1px;
+        background: linear-gradient(45deg,#00BBF6,#00C5E3,#00CBD7,#00D4C8,#00DBBB);
+        outline: none;
+    
+        }
+    }
+}
+@media screen and (max-width:1100px){
+    .content {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        
+
+        form{
+            label{
+                font-size: 10px;
+            }
+            input{
+                padding: 10px 4px;
+                margin: 6px 0px;
+            }
+        }
+
+}
+}
+
+
+
+} 
+
+      
+
+
+

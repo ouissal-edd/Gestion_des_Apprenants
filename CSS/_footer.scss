@@ -1,88 +1,86 @@
-body{
- .ftrContainer{ 
+.ftrContainer{ 
+ display: flex;
+ flex-direction: row;
+ justify-content: center ;
+ gap: 200px;
+ background-color: #232144;
+ padding-top: 100px;
+ padding-bottom: 40px;
+ margin-top: -7px;
+ color: whitesmoke;
+ .page{
+     display: flex;
+     flex-direction: column;
+     .elemContainer{
+         padding-top: 30px;
+         display: flex;
+         flex-direction: row;
+         gap: 20px;
+         .logos{
+             display: flex;
+             flex-direction: column;
+             gap: 20px;
+          }
+         .textLogos{
+           display: flex;
+           flex-direction: column;
+           gap: 26px;
+          }
+
+      }
+  }
+ .connect{
+     display: flex;
+     flex-direction: column;
+     .elemContainer{
+         padding-top: 30px;
+         display: flex;
+         flex-direction: row;
+         gap: 20px;
+         .logos{
+             display: flex;
+             flex-direction: column;
+             gap: 20px;
+          }
+         .textLogos{
+           display: flex;
+           flex-direction: column;
+           gap: 26px;
+          }
+
+      }
+  }
+ .contact{
+     display: flex;
+     flex-direction: column;
+     .elemContainer{
+         padding-top: 30px;
+         display: flex;
+         flex-direction: row;
+         gap: 20px;
+         .logos{
+             display: flex;
+             flex-direction: column;
+             gap: 20px;
+          }
+         .textLogos{
+           display: flex;
+           flex-direction: column;
+           gap: 53px;
+         }
+
+     }
+  }
+}
+@media screen and (max-width:900px){
+ .ftrContainer{
   display: flex;
-  flex-direction: row;
-  justify-content: center ;
-  gap: 200px;
-  background: #232144;
-  padding-top: 100px;
-  padding-bottom: 40px;
-  margin-top: -7px;
-  color: whitesmoke;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 80px;
   .page{
-      display: flex;
-      flex-direction: column;
-      .elemContainer{
-          padding-top: 30px;
-          display: flex;
-          flex-direction: row;
-          gap: 20px;
-          .logos{
-              display: flex;
-              flex-direction: column;
-              gap: 20px;
-          }
-          .textLogos{
-            display: flex;
-            flex-direction: column;
-            gap: 26px;
-          }
-
-      }
+   display: none;
   }
-  .connect{
-      display: flex;
-      flex-direction: column;
-      .elemContainer{
-          padding-top: 30px;
-          display: flex;
-          flex-direction: row;
-          gap: 20px;
-          .logos{
-              display: flex;
-              flex-direction: column;
-              gap: 20px;
-          }
-          .textLogos{
-            display: flex;
-            flex-direction: column;
-            gap: 26px;
-          }
-
-      }
-  }
-  .contact{
-      display: flex;
-      flex-direction: column;
-      .elemContainer{
-          padding-top: 30px;
-          display: flex;
-          flex-direction: row;
-          gap: 20px;
-          .logos{
-              display: flex;
-              flex-direction: column;
-              gap: 20px;
-          }
-          .textLogos{
-            display: flex;
-            flex-direction: column;
-            gap: 53px;
-          }
-
-      }
-  }
-}
-@media screen and (max-width:1200px){
-  .ftrContainer{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      gap: 80px;
-      .page{
-          display: none;
-      }
-  }
-}
+ }
 }
