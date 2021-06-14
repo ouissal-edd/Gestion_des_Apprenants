@@ -1,4 +1,4 @@
-# BRIEF4
+# Gestion des apprenants
 Contexte du projet
 C'est une application qui va gérer les apprenants d' une école :
 
